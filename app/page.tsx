@@ -1,14 +1,9 @@
+import App from "./components/home";
 
-import Beginer from "./components/react/React";
 export default function Home() {
   return (
-    
-      <div>
-       
-
-        <Beginer/>
-        
-      </div>
-    
+    <div>
+      <App />
+    </div>
   );
 }
