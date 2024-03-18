@@ -1,8 +1,9 @@
 "use client";
 import useScrollTop from "@/hooks/use-scroll-top";
 import { cn } from "@/lib/utils";
-import Logo from "./logo";
 import { ModeToggle } from "@/components/mode-toggle";
+import Logo from "./logo";
+
 import { useConvexAuth } from "convex/react";
 import { SignInButton } from "@clerk/clerk-react";
 import { Button } from "@/components/ui/button";

@@ -41,7 +41,7 @@ export default function RootLayout({
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange
-            storageKey="notion-theme"
+            storageKey="Notion-theme-2"
           >
             {children}
           </ThemeProvider>
